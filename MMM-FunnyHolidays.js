@@ -1,7 +1,7 @@
 /* global Module */
 
 /* Magic Mirror
- * Module: FunnyHolidays
+ * Module: MMM-FunnyHolidays
  *
  * By Matti Lehtinen
  * MIT Licensed.
@@ -80,7 +80,6 @@ Module.register("MMM-FunnyHolidays", {
 		message.className = "small bright";
 
 		var text = document.createElement("span");
-		//TODO: translate:
 		text.innerHTML = this.translate("TODAY") + ": " + this.funnyholidaysToday;
 
 		message.appendChild(text);

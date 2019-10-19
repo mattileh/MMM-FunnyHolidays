@@ -40,7 +40,6 @@ module.exports = NodeHelper.create({
         zlib.gunzip(body, function (err, dezipped) {
           var json = JSON.parse(dezipped.toString());
 
-          console.log("PUUKKO date: " + payload.date);
           var isFirst = false;
           var text = "nodata";
 
@@ -78,7 +77,6 @@ module.exports = NodeHelper.create({
     return [year, month, day].join('-');
   },
 
-  // subclass socketNotificationReceived, received notification from module
   socketNotificationReceived: function (notification, payload) {
     if (notification === 'FUNNY_HOLIDAYS_DATA_REQUEST') {
       this.getData(payload);
