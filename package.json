@@ -1,0 +1,17 @@
+{
+  "name": "MMM-FunnyHolidays",
+  "version": "1.0.0",
+  "description": "Funnyholidays from webcal.fi source",
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:mattileh/MMM-FunnyHolidays.git"
+  },
+  "keywords": [
+    "Calendar"
+  ],
+  "author": "Matti Lehtinen",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.74.0"
+  }
+}
