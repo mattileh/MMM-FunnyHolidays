@@ -1,4 +1,7 @@
 # MMM-FunnyHolidays
+Ever wanted to bring your teddybear to work? - you can do it on "Bring Your Teddy Bear To Work & School Day" on 8th of october
+or need to get hammered at 9am, well do it with dry-martinis on "James Bond Day" 2019-10-05.
+
 MM2 modules for showing "funny" holidays around world from webcal.fi source
 
 ### MagicMirror² platform
